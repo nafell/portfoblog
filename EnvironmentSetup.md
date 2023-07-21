@@ -1,6 +1,8 @@
 `npx create-next-app portfoblog`
 
-`npm install -D  @tailwindcss/typography`
+prisma init command
+`npm i --save-dev dotenv.cli`
+`npx dotenv -e .env.local -- npx prisma migrate dev --name postgres-init`
 
 
 package.json
